@@ -1,0 +1,32 @@
+
+**Week 1**
+Formed group on Thursday and held meeting. Chose UltraCast as project. Discussed technologies, planning to probably do Python/Flask backend and React frontend. Pawanjot made a lot of user stories for the base requirements, and the rest of us tweaked and added more.
+
+**Week 2**
+We met on Wednesday and in the tutorial on Thursday. We set up Jira and Github. We split up the epics and each added the user stories (with acceptance criteria) of our epic/s to Jira. I did user authorisation stories. We reviewed each other's stories as a group and made changes. I learned/reviewed some HTML & CSS so I can contribute to the frontend.
+
+**Week 3**
+We met on Monday and worked on storyboards, made some user story changes and worked on the proposal. I worked on the Sprints and the System Architecture sections. I learned some new CSS and browser JS to hopefully be useful for the frontend. In the tutorial on Thursday, we worked on various proposal sections and I did some on the system architecture section. In another meeting after, we reviewed and modified user stories and developed user story points planning-poker-style. In the process, we clarified some more aspects of our design and implementation plans. On Friday and Saturday, we refined and completed the proposal. I mostly did the system architecture section.
+
+**Week 4**
+Pawanjot and I were allocated to frontend - Pawanjot the parts directly reacted to React and me the parts focused on form/data processing and api interaction. I connected the frontend and backend and started the event handlers for login and signup.
+
+**Week 5**
+I finished the form validation, processing and api interaction of the login and signup pages. I debugged and fixed parts of frontend/backend to make it all work properly. I implemented some small things like logout functionality and username indicator. I did the backend and frontend logic for the descriptions page, and made a base for the actual page.
+The end of week 5 was the end of the first sprint.
+
+**Week 6**
+I did the frontend for the user settings page.
+Next week, I'm going to try editing the podcast description page to use infinite scroll rather than loading all episodes at once.
+
+**Week 7**
+I made a generalised Pages component, instead of infinite scroll, to display items as pages for the Details, Search, Recommendations and History pages. I made a version which takes all the items at the start, and another which is given a function to fetch one page at a time.
+
+**Week 8**
+I made some performance optimizations to the search frontend. I added the unsubscribe button to the subscriptions page. I made the history page and some edits to the Details page.
+
+**Week 9**
+We are completing final functionality, fixing bugs and adding more error handling. 
+New functionality: I implemented the frontend for marking podcasts as played and I implemented the frontend for setting and viewing ratings. I added prefetching to the PagesFetch component.
+Fixes/adjustments: fixed a performance problem on the history frontend and made adjustments to match API adjustment, extracted Subscribe button to a separate component since it is reused on two pages, adjusted descriptions of podcasts and episodes to include target=_blank and rel="nofollow noopener noreferrer" on all links, adding a check of session expiration to app load, added more error handling eg for 404 on the podcast details page and for null xml, fix a signup bug resulting from repeated clicking of signup button, did some general code cleaning and commenting, adjusted Recommendations frontend to match backend change (data returned from backend minified so its faster).
+/.
